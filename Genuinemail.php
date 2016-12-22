@@ -60,7 +60,7 @@ class CI_Genuinemail {
         //if the json file is not in local or the file exists but is older than 1 week, regenerate the json
         if (!file_exists($file) OR (file_exists($file) AND filemtime($file) < strtotime('-1 week')) )
         {
-            $banned_domains = file_get_contents("https://rawgit.com/kzwkyawzinwai/b0403e6cd57fe9db24851f66240f6d16/raw/2a00a284f27ba90b0c3b6498142eb29c3d896943/banneddomain.json");
+            $banned_domains = file_get_contents("https://raw.githubusercontent.com/kzwkyawzinwai/disposable-email-domains/master/banneddomain.json");
             if ($banned_domains !== FALSE)
                 file_put_contents($file,$banned_domains,LOCK_EX);
         }
