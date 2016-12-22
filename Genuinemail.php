@@ -9,7 +9,6 @@
  * @author  Kyaw Zin Wai
  * @since   Version 1.0.0
  * @license	The MIT License http://www.opensource.org/licenses/mit-license.php
- * @reference from neo22s
  * @filesource
  * Copyright (c) 2016 kzwkyawzinwai
  */
