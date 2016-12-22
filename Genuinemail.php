@@ -8,7 +8,7 @@
  * @package CodeIgniter
  * @author  Kyaw Zin Wai
  * @since   Version 1.0.0
- * @license	The MIT License http://www.opensource.org/licenses/mit-license.php
+ * @licenseThe MIT License http://www.opensource.org/licenses/mit-license.php
  * @filesource
  * Copyright (c) 2016 kzwkyawzinwai
  */
@@ -50,7 +50,7 @@ class CI_Genuinemail {
      /**
      * gets the array of not allowed domains for emails, reads from json stores file for 1 week
      * @return array 
-     * @see banned domains https://github.com/ivolo/disposable-email-domains/blob/master/index.json
+     * @see banned domains https://raw.githubusercontent.com/kzwkyawzinwai/disposable-email-domains/master/banneddomain.json
      * @return array
      */
     private static function get_banned_domains()
