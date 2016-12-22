@@ -10,6 +10,7 @@
  * @since   Version 1.0.0
  * @reference from neo22s
  * @filesource
+ * Copyright (c) 2016 kzwkyawzinwai
  */
 
 class CI_Genuinemail {
